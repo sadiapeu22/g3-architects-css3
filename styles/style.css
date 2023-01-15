@@ -6,7 +6,7 @@
 .header{
     margin-top: 29px;
     margin-left: 18px;
-    width: 1520px;
+    width: 1820px;
     height: 1102px;
     background: rgba(255, 144, 14, 0.1);
 
@@ -42,6 +42,7 @@ nav{
     gap: 25px;
     list-style-type: none;
     padding: 0px 200px;
+    margin-right: 200px;
     
 
 }
@@ -57,7 +58,7 @@ nav{
     text-align: center;
     color: #131313;
     padding-bottom: 15px; 
-    margin-left: 105px;
+    margin-right: 80px;
 
 }
 .banner-description{
@@ -67,7 +68,7 @@ nav{
      padding-left: 3px;
      padding-right: 3px;
      padding-bottom: 1px; 
-     margin-left: 40px;
+     margin-right: 160px;
 }
 
 /* .....button......... */
@@ -82,15 +83,16 @@ nav{
     margin-top: 50px;
     padding: 21px 24px 20px 25px;
     text-align: center;
-    margin-left: 690px;
+    margin-left: 740px;
     
    
 }
 .img{
-    width: 1080px;
+    width: 1180px;
     height: 500px;
     margin-top: 50px;
     margin-left: 240px;
+    margin-right: 240px;
     border-radius: 8px;
     align-items: center;
 }
@@ -106,16 +108,16 @@ nav{
 .container{
     display: flex;
     margin-top: 22px;
-    margin-left: 220px;
+    margin-left: 285px;
     
 }
 .container-img{
-    width: 200px;
-    height: 200px;
-   grid-row-gap:15px ;
-   grid-column-gap: 15px;
+    width: 150px;
+    height: 150px;
+    grid-row-gap: 15px ;
+    grid-column-gap: 15px;
     display: grid;
-    grid-template-columns: repeat(2,0fr);
+    grid-template-columns: repeat(2, 1fr);
    
 }
 /* .img-feature{
@@ -131,7 +133,7 @@ nav{
     font-weight: 500;
     font-size: 45px;
     color: #727272;
-    margin-left:990px ;
+    margin-left:1050px ;
     margin-bottom: 29px;
 }
 .bold{
@@ -143,7 +145,7 @@ nav{
 .feature-detail{
     font-weight: 400;
     font-size: 16px;
-    margin-left:990px;
+    margin-left:1050px;
     margin-right: 90px;
     color: #727272;
     margin-bottom: 29px;
@@ -159,7 +161,7 @@ nav{
     background-color: #FD6E0A;
     padding: 21px 24px 20px 25px;
     text-align: center;
-    margin-left: 990px;
+    margin-left: 1050px;
 }
 
 /* ..........section-two...... */
@@ -210,7 +212,7 @@ h5{
 
 }
 .architect{
-    width: 720px;
+    width: 820px;
     height: 1120px;
     border-radius: 8px;
     margin-right: 200px;
